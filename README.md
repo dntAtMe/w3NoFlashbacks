@@ -15,3 +15,6 @@ The idea is to make storybooks scenes "empty" with duration set to 0. Thanks to 
  
 You can leave either argument (`game`, `quickbms`) not set, they're both optional. In such case, script assumes that needed prerequisite is in the same directory.
 So, if you put `no_flashbacks.py` inside Witcher root directory, you only need to pass quickbms path argument.
+
+## Result
+[Imgur](https://i.imgur.com/sITTurc.gif)
