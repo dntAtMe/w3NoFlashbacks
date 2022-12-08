@@ -4,7 +4,7 @@ When the game is loading, it plays a storybook scene as well, so players can cat
 Due to how game scripts work, if the scene ends first, game starts immediately when it's ready.
 This mod aims to allow your game to start up as soon as it finishes loading.
 ## Details
-The idea is to make storybooks scenes "empty" with duration set to 0. Thanks to that, no scene is played, but game recognizes that it started and ended, going through proper steps (enabling auto-start when loading is finished). Storybooks are stored in `content/content0/movies.bundle`.
+The idea is to make storybooks scenes "empty" with duration set to 0. Thanks to that, no scene is played, but game recognizes that it started and ended (enabling auto-start when loading is finished). Storybooks are stored in `content/content0/movies.bundle`.
 ## Requirements
  - Python 3
  - [quickbms](http://aluigi.altervista.org/quickbms.htm) with witcher3.bms script (also provided as part of release)
