@@ -10,8 +10,8 @@ The idea is to make storybooks scenes "empty" with duration set to 0. Thanks to 
  - [quickbms](http://aluigi.altervista.org/quickbms.htm) with witcher3.bms script (also provided as part of release)
 ## Installation
  - Download and unpack release anywhere
- - Run `python3 no_flashbacks.py game=[path to Witcher 3 root directory] quickbms=[path to quickbms]` <br>
- For example: `python3 no_flashbacks.py game="G:\Games\The Witcher 3" quickbms="C:\Programs\quickbms"`
+ - Run `python3 no_flashbacks.py --game [path to Witcher 3 root directory] --quickbms [path to quickbms]` <br>
+ For example: `python3 no_flashbacks.py -g "G:\Games\The Witcher 3" -q "C:\Programs\quickbms"`
  
 You can leave either argument (`game`, `quickbms`) not set, they're both optional. In such case, script assumes that needed prerequisite is in the same directory.
 So, if you put `no_flashbacks.py` inside Witcher root directory, you only need to pass quickbms path argument.
